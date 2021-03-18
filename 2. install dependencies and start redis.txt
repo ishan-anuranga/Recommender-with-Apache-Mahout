@@ -1,0 +1,12 @@
+pip3 install —user twisted
+pip3 install —user klein
+pip3 install —user redis
+
+wget http://download.redis.io/releases/redis-2.8.7.tar.gz
+tar xzf redis-2.8.7.tar.gz
+cd redis-2.8.7
+make
+./src/redis-server &
+
+
+
